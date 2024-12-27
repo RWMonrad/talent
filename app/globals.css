@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 255, 255, 255;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+  font-family: 'Archivo', sans-serif;
+}
+
+.mega-nav {
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
